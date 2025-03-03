@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#homePage {
+  padding: 150px 0;
+  background: #dbdbdb;
+}
+.gameArea {
+  width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+}
+.gameArea {
+  text-align: center;
+}
+.gameArea h1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.nameInput {
+  width: 600px;
+  padding: 25px;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+}
+.nameInput::placeholder {
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.playBtn {
+  display: block;
+  padding: 15px 20px;
+  background: #7041d3;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  margin:  0 auto;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.nameError{
+  
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    background: red;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+}
+/* Player One Screen  */
+.playerOneScreen{
+    display: none;
+}
+.playerOneInput {
+  width: 600px;
+  padding: 25px;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+}
+.playerOneInput::placeholder {
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.playerPlayBtn {
+  display: block;
+  padding: 15px 20px;
+  background: #7041d3;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  margin:  0 auto;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.playerOneError{
+  
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    background: red;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+}
+
+
+/* ===================== */
