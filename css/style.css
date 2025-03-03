@@ -14,11 +14,11 @@ a {
 
 #homePage {
   padding: 150px 0;
-  background: #dbdbdb;
+  background-image: linear-gradient(to right, #2b0948, #620a4f, #901c4e, #b53d46, #ce653b);
 }
 .gameArea {
   width: 1000px;
-  background: #fff;
+  background-image: linear-gradient(to right, #7f00ff, #9c00ff, #b500ff, #cc00ff, #e100ff);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -26,6 +26,9 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
 }
 .gameArea {
   text-align: center;
@@ -34,6 +37,7 @@ a {
   font-size: 48px;
   font-weight: 700;
   padding-bottom: 20px;
+  color: #fff;
 }
 .nameInput {
   width: 600px;
@@ -43,6 +47,7 @@ a {
   -moz-border-radius: 80px;
   -ms-border-radius: 80px;
   -o-border-radius: 80px;
+  border:  none;
 }
 .nameInput::placeholder {
   font-size: 20px;
@@ -61,31 +66,36 @@ a {
   color: #fff;
   width: 200px;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
   border: none;
   margin-top: 20px;
   font-weight: 700;
   margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
 }
 
-.nameError{
-  
-    border-radius: 10px;
-    width: 70%;
-    padding: 20px;
-    background: red;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    display: none;
+.nameError {
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+  background: red;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: none;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.45);
 }
 /* Player One Screen  */
-.playerOneScreen{
-    display: none;
+.playerOneScreen {
+  display: none;
 }
 .playerOneInput {
   width: 600px;
@@ -113,28 +123,26 @@ a {
   color: #fff;
   width: 200px;
   text-align: center;
-  margin:  0 auto;
+  margin: 0 auto;
   border: none;
   margin-top: 20px;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-.playerOneError{
-  
-    border-radius: 10px;
-    width: 70%;
-    padding: 20px;
-    background: red;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    display: none;
+.playerOneError {
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+  background: red;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: none;
 }
-
 
 /* ===================== */
